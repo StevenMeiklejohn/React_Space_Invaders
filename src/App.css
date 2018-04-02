@@ -1,6 +1,67 @@
+@font-face {
+  font-family: 'prototype';
+  font-style: normal;
+  font-weight: 400;
+  src: local('prototype'), url('./main/assets/fonts/prototype.ttf') format('truetype');
+
+}
+body {
+  font-family: 'prototype';
+  background: red;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
 canvas {
   display: block;
   background-color: #000000;
   margin-left: auto;
   margin-right: auto;
+}
+
+.centerScreen {
+  text-align: center;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+.title {
+  top: 20%;
+  color: green;
+  font-size: 80px;
+}
+.pressSpace {
+  top: 35%;
+  font-size: 20px;
+  color: #ffffff;
 }

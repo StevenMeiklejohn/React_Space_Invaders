@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import TitleScreen from './ReactComponents/TitleScreen';
 
 import './App.css';
 const width = 400;
@@ -28,6 +29,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        <TitleScreen />
         <canvas ref="canvas"
           width={ this.state.screen.width * this.state.screen.ratio }
           height={ this.state.screen.height * this.state.screen.ratio } />
