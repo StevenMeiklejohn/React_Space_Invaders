@@ -3,11 +3,17 @@
   font-style: normal;
   font-weight: 400;
   src: local('prototype'), url('./main/assets/fonts/prototype.ttf') format('truetype');
-
 }
+
+html {
+  background: url(./main/assets/images/border.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
 body {
   font-family: 'prototype';
-  background: red;
 }
 
 
